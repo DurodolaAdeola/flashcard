@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <link href="style/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color: dodgerblue;">
+    <h1>There are different types of methods which are written below:</h1>
+    <h1 style="text-align: center;">METHODS</h1>
+    <h1 class="jumbotron">String Methods and Properties</h1>
+    <h3>Primitive values, like "John Doe", cannot have properties or methods (because they are not objects).
+        But with JavaScript, methods and properties are also available to primitive values, because JavaScript treats primitive values as objects when executing methods and properties.</h3>
+        <ul>
+            <h1><li class="jumbotron">String Length</li></h1>
+        </ul>
+        <h3>The length property returns the length of a string, it measures the length of a string and gives the total output the length can be divided, rounded down, added to, and subtracted e.t.c</h3>
+        <h2 class="jumbotron">Extracting String Parts
+            There are 3 methods for extracting a part of a string:
+            <ul>
+                <li>slice(start, end)</li>
+               <li> substring(start, end)</li>
+                <li>substr(start, length)</li>
+            </ul>
+           </h2>
+           <ul>
+               <h1><li class="jumbotron">The slice() Method</li></h1>
+           </ul>
+           <h3>slice() extracts a part of a string and returns the extracted part in a new string.
+
+            The method takes 2 parameters: the start position, and the end position (end not included).</h3>
+            <p><h3>Remember: JavaScript counts positions from zero. First position is 0.
+
+                If a parameter is negative, the position is counted from the end of the string.
+                
+                This example slices out a portion of a string from position -12 to position -6.</h3></p>
+                <P><h3>If you omit the second parameter, the method will slice out the rest of the string.</h3></P>
+             <p><h1 class="jumbotron" style="text-align: center;">The substring() Method</h1></p>   
+             <h3>substring() is similar to slice().
+
+                The difference is that substring() cannot accept negative indexes, If you omit the second parameter, substring() will slice out the rest of the string.</h3>
+                <p><h1 class="jumbotron" style="text-align: center;">The substr() Method</h1></p>
+                <h3>substr() is similar to slice().
+
+                    The difference is that the second parameter specifies the length of the extracted part. If you omit the second parameter, substr() will slice out the rest of the string, If the first parameter is negative, the position counts from the end of the string.</h3>
+                   <ul> 
+                       <h2 ><li class="jumbotron">Replacing String Content</li></h2>
+                    </ul>
+                    <h3>The replace() method replaces a specified value with another value in a string, The replace() method does not change the string it is called on. It returns a new string.
+
+                        By default, the replace() method replaces only the first match.</h3>
+                     <ul>
+                         <h2><li class="jumbotron">Converting to Upper and Lower Case</li></h2>
+                     </ul> 
+                     <h3>A string is converted to upper case with toUpperCase() and a string is converted to lower case with toLowerCase()</h3>  
+                     <ul>
+                        <h2><li class="jumbotron">The concat() Method</li></h2>
+                    </ul>
+                    <h3>concat() joins two or more strings, The concat() method can be used instead of the plus operator. These two lines do the same.</h3>
+                    <ul>
+                        <h2><li class="jumbotron">String.trim()</li></h2>
+                    </ul>
+                    <h3>The trim() method removes whitespace from both sides of a string</h3>
+                    <h2 class="jumbotron">Extracting String Characters,
+                        There are 3 methods for extracting string characters:
+                        <ul>
+                        <li>charAt(position)</li>
+                        <li>charCodeAt(position)</li>
+                        <li>Property access [ ]</li>
+                        </ul>
+                       </h2>
+                       <ul>
+                        <h2><li class="jumbotron" style="text-align: center;">The charAt() Method</li></h2>
+                       </ul>
+                       <h3>The charAt() method returns the character at a specified index (position) in a string.</h3>
+                       <h2 class="jumbotron" style="text-align: center;">The charCodeAt() Method</h2>
+                       
+
+
+</body>
+
+</html>
