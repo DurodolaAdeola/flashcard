@@ -59,4 +59,10 @@ $(document).ready(function(){
     $(".var").click(function(){
         window.location.href="variables.html";
     })
+
 })
+//$(document).ready(function(){
+   // $(".head").click(function(){
+    //    $("ul").toggle();
+    //})
+//})
