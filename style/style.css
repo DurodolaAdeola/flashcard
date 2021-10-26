@@ -1,3 +1,9 @@
 li {
     cursor: pointer;
 }
+a {
+    border: 3px solid purple;
+    position: fixed;
+    color: black;
+    font-family: georgia;
+}
